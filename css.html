@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>CSS ALL</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h4>不兼容IE的话使用，纯CSS实现：</h4>
+        <div class="row">
+            <label for="">Checkbox</label>
+            <input type="checkbox" class="jll-checkbox square">
+            <input type="checkbox" class="jll-checkbox ">
+        </div>
+
+        <h4>兼容IE（由于png背景图是透明的，所以也没加hack，只兼容到IE9+）的话使用，CSS+背景图实现：</h4>
+        <div class="row">
+            <label for="">Checkbox - 兼容IE</label>
+
+            <div class="jll-checkbox-wp">
+                <input type="checkbox" class="square "><i></i>
+            </div>
+            <div class="jll-checkbox-wp">
+                <input type="checkbox" class=""><i></i>
+            </div>
+
+            <div class="jll-checkbox-wp">
+                <input type="checkbox" class="square blue"><i></i>
+            </div>
+            <div class="jll-checkbox-wp">
+                <input type="checkbox" class="blue"><i></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <label for="">Radio</label>
+            <input type="radio" class="jll-radio" name="radio1"><input type="radio" class="jll-radio" name="radio1">
+        </div>
+
+        <h4>兼容IE（由于png背景图是透明的，所以也没加hack，只兼容到IE9+）的话使用，CSS+背景图实现：</h4>
+        <div class="row">
+            <label for="">Radio</label>
+            <div class="jll-radio-wp">
+                <input type="radio" class="" name="radio2"><i></i>
+            </div>
+            <div class="jll-radio-wp">
+                <input type="radio" class="" name="radio2"><i></i>
+            </div>
+
+            <div class="jll-radio-wp">
+                <input type="radio" class="point" name="radio3"><i></i>
+            </div>
+            <div class="jll-radio-wp">
+                <input type="radio" class="point" name="radio3"><i></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>
