@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小工具集合</title>
+    <link rel="stylesheet" href="./lib/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-vue-2.0.2/bootstrap-vue.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./lib/vue.js"></script>
+</head>
+<body>
+    <div id="app" class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h5>输入：</h5>
+                <textarea cols="30" rows="10" class="input-textarea" v-model="input1"></textarea>
+            </div>
+            <div class="col">
+                <h5>输出：</h5>
+                <textarea cols="30" rows="10" class="input-textarea">{{formatInput1()}}</textarea>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./lib/bootstrap-vue-2.0.2/bootstrap-vue.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

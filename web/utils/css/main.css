@@ -1,0 +1,9 @@
+html{
+    padding: 10px;
+}
+
+.input-textarea{
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+}
