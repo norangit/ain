@@ -1,0 +1,5 @@
+@each $w in 10, 10 {
+      .w-#{$w} {
+        width: #{$w}% !important;
+  }
+}

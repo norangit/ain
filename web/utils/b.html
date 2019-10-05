@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head resURL="/static/69b0109d" data-rooturl="" data-resurl="/static/69b0109d">
+
+
+     <title>Form post required [Jenkins]</title>
+     <link rel="stylesheet" href="/static/69b0109d/css/layout-common.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/css/style.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/css/color.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/css/responsive-grid.css" type="text/css" />
+     <link rel="shortcut icon" href="/static/69b0109d/favicon.ico" type="image/vnd.microsoft.icon" />
+     <link color="black" rel="mask-icon" href="/images/mask-icon.svg" />
+     <script>
+         var isRunAsTest = false;
+         var rootURL = "";
+         var resURL = "/static/69b0109d";
+     </script>
+     <script src="/static/69b0109d/scripts/prototype.js" type="text/javascript"></script>
+     <script src="/static/69b0109d/scripts/behavior.js" type="text/javascript"></script>
+     <script src='/adjuncts/69b0109d/org/kohsuke/stapler/bind.js' type='text/javascript'></script>
+     <script src="/static/69b0109d/scripts/yui/yahoo/yahoo-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/dom/dom-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/event/event-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/animation/animation-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/dragdrop/dragdrop-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/container/container-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/connection/connection-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/datasource/datasource-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/autocomplete/autocomplete-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/menu/menu-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/element/element-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/button/button-min.js"></script>
+     <script src="/static/69b0109d/scripts/yui/storage/storage-min.js"></script>
+     <script src="/static/69b0109d/scripts/hudson-behavior.js" type="text/javascript"></script>
+     <script src="/static/69b0109d/scripts/sortable.js" type="text/javascript"></script>
+     <script>
+         crumb.init("Jenkins-Crumb", "dcfc4ceab5ebff8da25095ae20f80a0c");
+     </script>
+     <link rel="stylesheet" href="/static/69b0109d/scripts/yui/container/assets/container.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/scripts/yui/assets/skins/sam/skin.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/scripts/yui/container/assets/skins/sam/container.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/scripts/yui/button/assets/skins/sam/button.css" type="text/css" />
+     <link rel="stylesheet" href="/static/69b0109d/scripts/yui/menu/assets/skins/sam/menu.css" type="text/css" />
+     <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Jenkins" />
+     <meta name="ROBOTS" content="INDEX,NOFOLLOW" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <script src="/adjuncts/69b0109d/org/kohsuke/stapler/jquery/jquery.full.js" type="text/javascript"></script>
+     <script>
+         var Q = jQuery.noConflict()
+     </script>
+     <script src="/static/69b0109d/jsbundles/page-init.js" type="text/javascript"></script>
+ </head>
+
+ <body data-model-type="hudson.maven.MavenModuleSet" id="jenkins" class="yui-skin-sam two-column jenkins-2.176.3" data-version="2.176.3"><a href="#skip2content" class="skiplink">Skip to content</a>
+     <div id="page-head">
+         <div id="header">
+             <div class="logo"><a id="jenkins-home-link" href="/"><img src="/static/69b0109d/images/headshot.png" alt="[Jenkins]" id="jenkins-head-icon" /><img src="/static/69b0109d/images/title.png" alt="Jenkins" width="139" id="jenkins-name-icon" height="34" /></a></div>
+             <div class="login"> <span style="white-space:nowrap"><a href="/user/admin" class="model-link inside inverse"><b>admin</b></a>
+                     |
+                     <a href="/logout"><b>注销</b></a></span></div>
+             <div class="searchbox hidden-xs">
+                 <form role="search" method="get" name="search" action="/job/SiemensHB1/search/" style="position:relative;" class="no-json">
+                     <div id="search-box-minWidth"></div>
+                     <div id="search-box-sizer"></div>
+                     <div id="searchform"><input role="searchbox" name="q" placeholder="查找" id="search-box" class="has-default-text" /> <a href="https://jenkins.io/redirect/search-box"><img src="/static/69b0109d/images/16x16/help.png" style="width: 16px; height: 16px; " class="icon-help icon-sm" /></a>
+                         <div id="search-box-completion"></div>
+                         <script>
+                             createSearchBox("/job/SiemensHB1/search/");
+                         </script>
+                     </div>
+                 </form>
+             </div>
+         </div>
+         <div id="breadcrumbBar">
+             <tr id="top-nav">
+                 <td id="left-top-nav" colspan="2">
+                     <link rel='stylesheet' href='/adjuncts/69b0109d/lib/layout/breadcrumbs.css' type='text/css' />
+                     <script src='/adjuncts/69b0109d/lib/layout/breadcrumbs.js' type='text/javascript'></script>
+                     <div class="top-sticker noedge">
+                         <div class="top-sticker-inner">
+                             <div id="right-top-nav">
+                                 <div id="right-top-nav">
+                                     <div class="smallfont"><a href="?auto_refresh=true">允许自动刷新</a></div>
+                                 </div>
+                             </div>
+                             <ul id="breadcrumbs">
+                                 <li class="item"><a href="/" class="model-link inside">Jenkins</a></li>
+                                 <li href="/" class="children"></li>
+                                 <li class="item"><a href="/job/SiemensHB1/" class="model-link inside">SiemensHB1</a></li>
+                                 <li href="/job/SiemensHB1/" class="children"></li>
+                             </ul>
+                             <div id="breadcrumb-menu-target"></div>
+                         </div>
+                     </div>
+                 </td>
+             </tr>
+         </div>
+     </div>
+     <div id="page-body" class="clear">
+         <div id="side-panel"></div>
+         <div id="main-panel"><a name="skip2content"></a>
+             <p>You must use POST method to trigger builds. (From scripts you may instead pass a per-project authentication token, or authenticate with your API token.) If you see this page, it may be because a plugin offered a GET link; file a bug report for that plugin.</p>
+             <form method="POST"><input type="submit" value="Proceed" /></form>
+         </div>
+     </div>
+     <footer>
+         <div class="container-fluid">
+             <div class="row">
+                 <div class="col-md-6" id="footer"></div>
+                 <div class="col-md-18"><span class="page_generated">生成页面: 2019-10-3 下午11时41分31秒</span><span class="rest_api"><a href="api/">REST API</a></span><span class="jenkins_ver"><a href="https://jenkins.io/">Jenkins ver. 2.176.3</a></span>
+                     <link rel='stylesheet' href='/adjuncts/69b0109d/jenkins/management/AdministrativeMonitorsDecorator/resources.css' type='text/css' />
+                     <script src='/adjuncts/69b0109d/jenkins/management/AdministrativeMonitorsDecorator/resources.js' type='text/javascript'></script>
+                     <div id="visible-am-container"><a onclick="toggleVisibleAmList(event)" id="visible-am-button" href="#" title="有 2 项激活的管理员检查项">2</a>
+                         <div id="visible-am-list">
+                             <div class="am-message">
+                                 <div class="alert alert-info">
+                                     新版本的 Jenkins (2.190.1) 可以<a href="http://updates.jenkins-ci.org/download/war/2.190.1/jenkins.war">下载</a> (<a href="https://jenkins.io/changelog-stable">变更记录</a>)。
+                                     <form method="post" action="/updateCenter/upgrade"><input name="Submit" type="submit" value="或自动升级" class="submit-button primary" /></form>
+                                 </div>
+                             </div>
+                             <div class="am-message">
+                                 <div class="alert alert-danger" role="alert">
+                                     <form method="post" action="/administrativeMonitor/jenkins.security.UpdateSiteWarningsMonitor/forward"><input name="fix" type="submit" value="返回插件管理" class="submit-button primary" /><input name="configure" type="submit" value="配置显示哪些警告" class="submit-button primary" /></form>当前安装的下列组件已有警告发布。<dl>
+                                         <dt>Jenkins 2.176.3 核心及其库</dt>
+                                         <dd><a href="https://jenkins.io/security/advisory/2019-09-25/" target="_blank">Multiple security vulnerabilities in Jenkins 2.196 and earlier, and LTS 2.176.3 and earlier</a></dd>
+                                     </dl>
+                                     <dl>
+                                         <dt><a href="https://wiki.jenkins.io/display/JENKINS/Script+Security+Plugin" target="_blank">Script Security Plugin 1.64</a></dt>
+                                         <dd><a href="https://jenkins.io/security/advisory/2019-10-01/#SECURITY-1579" target="_blank">Sandbox bypass vulnerability</a></dd>
+                                         <dt><a href="https://wiki.jenkins-ci.org/display/JENKINS/Build+Pipeline+Plugin" target="_blank">Build Pipeline Plugin 1.5.8</a></dt>
+                                         <dd><a href="https://jenkins.io/security/advisory/2019-08-07/#SECURITY-879" target="_blank">Stored XSS vulnerability</a></dd>
+                                         <dt><a href="https://wiki.jenkins-ci.org/display/JENKINS/Gitlab+Hook+Plugin" target="_blank">Gitlab Hook Plugin 1.4.2</a></dt>
+                                         <dd><a href="https://jenkins.io/security/advisory/2018-05-09/#SECURITY-263" target="_blank">Gitlab API token stored and displayed in plain text</a></dd>
+                                     </dl>
+                                 </div>
+                             </div>
+                             <p style="text-align: center; margin: 10px 0 0 0;"><a onclick="document.location.href='/manage';" href="/manage">管理 Jenkins</a></p>
+                         </div>
+                     </div>
+                     <script type="text/javascript">
+                         document.getElementById("header").appendChild(document.getElementById("visible-am-container"));
+                     </script>
+                 </div>
+             </div>
+         </div>
+     </footer>
+ </body>
+
+ </html>

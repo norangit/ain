@@ -3,7 +3,14 @@
         el: '#app',
         data: {
             input1: 'Hello Vue!',
-            output1: 'Hello Vue!'
+            output1: 'Hello Vue!',
+            pageReady: false
+        },
+        mounted: function () {
+            var that = this;
+            setTimeout(() => {
+                that.pageReady = true;
+            }, 1000);
         },
         methods: {
             formatInput1: function(){

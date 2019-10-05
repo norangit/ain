@@ -1,0 +1,229 @@
+{
+  "plugins": [
+    {
+      "pluginId": "Key Promoter X",
+      "pluginName": "Key Promoter X",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "OpenShift",
+      "pluginName": "OpenShift integration",
+      "dependencyPluginIds": [],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "String Manipulation",
+      "pluginName": "String Manipulation",
+      "downloadUrl": "https://github.com/krasa/StringManipulation",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.bruce.intellijpluin.stackoverflow",
+      "pluginName": "stackoverflow",
+      "dependencyPluginIds": [
+        "com.intellij"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.intellij.uiDesigner",
+      "pluginName": "UI Designer",
+      "dependencyPluginIds": [
+        "com.intellij.java-i18n",
+        "com.intellij.properties"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "com.intellij.plugins.watcher",
+      "pluginName": "File Watchers",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.xml",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.netnexus.camelcaseplugin",
+      "pluginName": "CamelCase",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "mobi.hsz.idea.gitignore",
+      "pluginName": ".ignore",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "optionalDependencyPluginIds": [
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "Heroku",
+      "pluginName": "Heroku",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.ultimate",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.javaee"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.java",
+        "com.intellij.javaee"
+      ],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "org.jetbrains.android",
+      "pluginName": "Android Support",
+      "dependencyPluginIds": [
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "DevKit",
+      "pluginName": "Plugin DevKit",
+      "dependencyPluginIds": [
+        "com.intellij.properties",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.gradle",
+        "org.intellij.groovy"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.gradle",
+        "org.intellij.groovy"
+      ],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "JRebelPlugin",
+      "pluginName": "JRebel for IntelliJ",
+      "downloadUrl": "http://www.zeroturnaround.com/jrebel/",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.javaee",
+        "WebSphere",
+        "Weblogic",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.javaee.view",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.javaee",
+        "WebSphere",
+        "Weblogic",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.javaee.view"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.bruce.intellijplugin.generatesetter",
+      "pluginName": "GenerateAllSetter",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "org.jetbrains.kotlin",
+        "com.ccnode.codegenerator.MyBatisCodeHelperPro"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.kotlin",
+        "com.ccnode.codegenerator.MyBatisCodeHelperPro"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "CloudFoundry",
+      "pluginName": "Cloud Foundry",
+      "dependencyPluginIds": [
+        "com.intellij.javaee",
+        "com.intellij.spring"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "izhangzhihao.rainbow.brackets",
+      "pluginName": "Rainbow Brackets",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "MavenRunHelper",
+      "pluginName": "Maven Helper",
+      "downloadUrl": "https://github.com/krasa/MavenHelper",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    }
+  ]
+}
