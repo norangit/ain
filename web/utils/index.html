@@ -43,11 +43,59 @@
                         <b-tab title="字符转换" active>
                             <dir class="row">
                                 <div class="col">
-                                    <h5>输入：</h5>
+                                    <h5>输入选项：</h5>
+                                    <div class="form-row">
+                                        <div class="form-group col-md">
+                                            <label for="inputEmail3">分隔符</label>
+                                            <div class="">
+                                                <b-form-select class="mb-2 mr-sm-2 mb-sm-0" :value="null" :options="separatorOptions" v-model="strForm.separator">
+                                                    <template v-slot:first>
+                                                        <option :value="null" selected>请选择</option>
+                                                    </template>
+                                                </b-form-select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md" v-if="strForm.separator==='custom'">
+                                            <label for="inputEmail3">自定义分隔符</label>
+                                            <div class="">
+                                                <input type="email" class="form-control" id="inputEmail3" placeholder="分隔符" v-model="strForm.customSeparator">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md">
+                                            <label for="inputEmail3">包括符</label>
+                                            <div class="">
+                                                <input type="email" class="form-control" id="inputEmail3" placeholder="包括符，以逗号分开入：{,}" v-model="strForm.includes">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <textarea cols="30" rows="10" class="input-textarea" v-model="input1"></textarea>
                                 </div>
                                 <div class="col">
-                                    <h5>输出：</h5>
+                                    <h5>输出选项：</h5>
+                                    <div class="form-row">
+                                        <div class="form-group col-md">
+                                            <label for="inputEmail3">分隔符</label>
+                                            <div class="">
+                                                <b-form-select class="mb-2 mr-sm-2 mb-sm-0" :value="null" :options="separatorOptions" v-model="strForm.out.separator">
+                                                    <template v-slot:first>
+                                                        <option :value="null" selected>请选择</option>
+                                                    </template>
+                                                </b-form-select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md" v-if="strForm.out.separator==='custom'">
+                                            <label for="inputEmail3">自定义分隔符</label>
+                                            <div class="">
+                                                <input type="email" class="form-control" id="inputEmail3" placeholder="分隔符" v-model="strForm.out.customSeparator">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md">
+                                            <label for="inputEmail3">包括符</label>
+                                            <div class="">
+                                                <input type="email" class="form-control" id="inputEmail3" placeholder="包括符，以逗号分开入：{,}" v-model="strForm.out.includes">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <textarea cols="30" rows="10" class="input-textarea">{{ formatInput1() }}</textarea>
                                 </div>
                             </dir>

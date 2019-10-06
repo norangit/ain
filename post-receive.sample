@@ -1,0 +1,4 @@
+#!/bin/sh
+#notify jenkins to build right now...
+echo 'curl -u admin:116ebf3f2269c2a7679adf833598576ae3 -X POST http://192.168.1.47:8080/job/SiemensHB1/build?delay=0sec'
+curl -u admin:116ebf3f2269c2a7679adf833598576ae3 -X POST http://192.168.1.47:8080/job/SiemensHB1/build?delay=0sec
